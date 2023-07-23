@@ -1,0 +1,25 @@
+@use "reset";
+@use "variables";
+@use "mixins";
+@use "header";
+@use "hero";
+@use "responsive";
+
+body {
+  background: url("../images/bg-desktop.svg") center center no-repeat;
+  background-size: cover;
+  background-color: variables.$violet;
+  min-height: 100vh;
+
+  @include mixins.small-devices {
+    background: url("../images/bg-mobile.svg") center center no-repeat;
+    background-color: variables.$violet;
+    background-size: cover;
+    min-height: 100vh;
+  }
+}
+
+.container {
+  max-width: variables.$desktop-width;
+  margin: 0 auto;
+}

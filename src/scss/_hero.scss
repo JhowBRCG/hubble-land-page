@@ -1,0 +1,68 @@
+@use "variables";
+
+.hero {
+  padding-top: 10rem;
+  display: flex;
+  position: relative;
+  // justify-content: space-between;
+  gap: 5rem;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 500px;
+    margin-top: 5rem;
+
+    h1 {
+      font-family: variables.$secondary-font;
+      font-size: 4rem;
+      text-transform: capitalize;
+    }
+
+    a {
+      display: block;
+      padding: 1rem 5rem;
+      color: variables.$violet;
+      background: variables.$primary-color;
+      font-family: variables.$secondary-font;
+      width: fit-content;
+      border-radius: 4rem;
+      box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.295);
+      transition: all 200ms ease-in-out;
+
+      &:hover {
+        background: variables.$soft-magenta;
+        color: variables.$primary-color;
+      }
+    }
+  }
+
+  &__socials {
+    position: absolute;
+    display: flex;
+    bottom: -50px;
+    right: 0;
+
+    gap: 1.5rem;
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+      border-radius: 50%;
+      border: 1px solid variables.$primary-color;
+      width: 40px;
+      height: 40px;
+
+      &:hover {
+        border: 1px solid variables.$soft-magenta;
+      }
+
+      &:hover i {
+        color: variables.$soft-magenta;
+      }
+    }
+  }
+}
