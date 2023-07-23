@@ -11,7 +11,7 @@
 
 <br><br>
 
-> Este projeto foi criado com a intenção de fazer o desafio proposto pelo site [Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0), onde eles dão o nome desse projeto em específico de **hubble**.
+> Este projeto foi criado com a intenção de fazer o desafio proposto pelo site [Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0), onde eles dão o nome desse projeto em específico de **huddle**.
 
 ## 💼 Technologies
 
